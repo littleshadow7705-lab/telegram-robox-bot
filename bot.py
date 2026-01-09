@@ -1,11 +1,6 @@
 import os
 from telegram import Update
-from telegram.ext import (
-    ApplicationBuilder,
-    ContextTypes,
-    MessageHandler,
-    filters,
-)
+from telegram.ext import ApplicationBuilder, ContextTypes, MessageHandler, filters
 
 TOKEN = os.getenv("TOKEN")
 
